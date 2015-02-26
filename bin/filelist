@@ -1,0 +1,27 @@
+# --------------------------------------------------------------
+# [dotfilelist]
+#
+# Used by dotlinker.py and updated by dotupdater.py
+#
+# Repository Source         :          Destination
+# --------------------------------------------------------------
+
+# i3
+i3/config                   :   ~/.i3/config    
+i3/i3status                 :   ~/.i3/i3status
+i3/util/backlightctrl.sh    :   ~/.i3/util/backlightctrl.sh
+i3/util/i3blur.py           :   ~/.i3/util/i3blur.py
+i3/util/i3dmenu-wrapper.sh  :   ~/.i3/util/i3dmenu-wrapper.sh
+i3/util/volnotid.sh         :   ~/.i3/util/volnotid.sh
+
+# mpd
+mpd/mpdconf                 :   ~/.mpdconf
+
+# ncmpcpp
+ncmpcpp/ncmpcpp.conf        :   ~/.ncmpcpp/ncmpcpp.conf
+
+# vim
+vim/vimrc                   :   ~/.vimrc
+
+# zsh
+zsh/zshrc                   :   ~/.zshrc
