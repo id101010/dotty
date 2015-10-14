@@ -1,27 +1,27 @@
 # --------------------------------------------------------------
 # [dotfilelist]
 #
-# Used by dotlinker.py and updated by dotupdater.py
+# Used by dotty to keep track of the symlinks
 #
-# Repository Source         :          Destination
+# Syntax = Source : Destination : Linkname
 # --------------------------------------------------------------
 
 # i3
-dotfiles/i3/config:~/.i3/config    
-dotfiles/i3/i3status:~/.i3/i3status
-dotfiles/i3/util/backlightctrl.sh:~/.i3/util/backlightctrl.sh
-dotfiles/i3/util/i3blur.py:~/.i3/util/i3blur.py
-dotfiles/i3/util/i3dmenu-wrapper.sh:~/.i3/util/i3dmenu-wrapper.sh
-dotfiles/i3/util/volnotid.sh:~/.i3/util/volnotid.sh
+dotfiles/i3/config:~/.i3/config:i3config
+dotfiles/i3/i3status:~/.i3/i3status:i3status
+dotfiles/i3/util/backlightctrl.sh:~/.i3/util/backlightctrl.sh:i3backlight
+dotfiles/i3/util/i3blur.py:~/.i3/util/i3blur.py:i3blur
+dotfiles/i3/util/i3dmenu-wrapper.sh:~/.i3/util/i3dmenu-wrapper.sh:i3dmenu
+dotfiles/i3/util/volnotid.sh:~/.i3/util/volnotid.sh:i3volnoti
 
 # mpd
-dotfiles/ipd/mpdconf:~/.mpdconf
+dotfiles/ipd/mpdconf:~/.mpdconf:mpdconf
 
 # ncmpcpp
-dotfiles/icmpcpp/ncmpcpp.conf:~/.ncmpcpp/ncmpcpp.conf
+dotfiles/icmpcpp/ncmpcpp.conf:~/.ncmpcpp/ncmpcpp.conf:ncmpcppconf
 
 # vim
-dotfiles/iim/vimrc:~/.vimrc
+dotfiles/iim/vimrc:~/.vimrc:vimrc
 
 # zsh
-dotfiles/ish/zshrc:~/.zshrc
+dotfiles/ish/zshrc:~/.zshrc:zshrc
